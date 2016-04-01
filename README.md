@@ -20,9 +20,13 @@ sometimes the README will link to software that has been open-sourced by a hacka
 ### admissions
 
 1. hackathonAppReading - a tool process copy/pasted typeform data and use searches to read apps
+
 2. hackathonAppScoring - a tool to record hackerID-score tuples and have them automatically normalized for reader bias
+
 3. hackathonAppProcessing - a tool to aggregate copy/pasted normalized scores from 2. and use some configurations to pick admits
+
 4. README - explains the above 3 in greater depth, and adds:
+
   1. Hackathon Application Template - a typeform with some examples and pointers for setting up a Typeform application
 
 ### finances
