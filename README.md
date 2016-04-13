@@ -13,6 +13,8 @@ each folder (the complete list of folders is available in the index section belo
 
 this should go without saying, but use whichever modules you have a need for/you feel will work well for you. each folder is independent and can be used as such.
 
+my suggestion would be to fork this repo right away for your team.
+
 sometimes the README will link to software that has been open-sourced by a hackathon vs. something that was contributed directly to this hackpack - everything that is linked to will be open-source, though.
 
 ## section index
@@ -33,6 +35,6 @@ sometimes the README will link to software that has been open-sourced by a hacka
 ### internal
 ### judging
 ### registration
-### sponsorship
+### partnership
 
 ## acknowledgments
