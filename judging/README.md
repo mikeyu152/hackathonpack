@@ -1,4 +1,4 @@
-# nonprofits
+# judging
 allocating prizes and all that fun stuff
 
 ## how important is judging?
@@ -22,3 +22,14 @@ it seems like the science fair-style expo is something that really hasn't been i
 
 ## judging process
 
+some hackathons judge on devpost with a rating system - you can learn to set that up [here](http://help.devpost.com/customer/en/portal/articles/1929826-how-judging-works---for-hackathon-managers). most hackathons seem to choose not to do this though, and they usually adopt one of two main methods for judging a large number of hacks:
+
+#### absolute scoring
+
+each judge gets a set of criteria, and rates each hack she's assigned on some scale, whether that's 1-5, 1-10, or something else. if you go this route, a sample judging sheet is included [here](judgingsheet.pdf) - it was used at the 2016 big hack. the raw sketch file for these files is [judging.sketch](judging.sketch) if you use sketch - the one thing i would always recommend for judging sheets with this kind of scoring is to make sure judges can fold the scores behind, so they don't have to worry about hiding them from the teams while talking.
+
+if you go this route, you can use [judgingrecord.xlsx](judgingrecord.xlsx) to record the scores as they come in via your judges sheets. as always, edit the boxes that are yellow. use the **config** tab to pick your three criteria and input the number of tables, as well as how you want each criteria to be weighted. as the judging sheets come in, each judging of a table just gets another entry in the **data** sheet - add table number and the three criteria to a new row. the **scoring** sheet automatically averages all the scores and computes a total and rank, and the **top_twenty** sheet lists the top twenty table numbers. we use top twenty because at this point you probably want to have the judges talk a bit and/or go check out the contenders to narrow it down to the winners who will demo or take home prizes.
+
+#### top of batch
+
+another technique that has been used for large(r) hackathons has been to assign each judge some batch of tables (say, 8), and pick a top one or two from that batch; this process then gets repeated until winners are picked. treehacks has an open-source API to use twilio to do this via sms [here](https://github.com/TreeHacks/Judging-API)

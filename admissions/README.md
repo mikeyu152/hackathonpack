@@ -37,27 +37,27 @@ not every hacker has to get the same number of reads - the sheets compute each h
 
 the reading process for your readers looks roughly as follows:
 
-1. open hackathonAppScoring, and on the "config" tab, type the reader's name and the criteria by which apps are being judged (this criteria should be the same for all readers)
+1. open hackathonAppScoring, and on the **config** tab, type the reader's name and the criteria by which apps are being judged (this criteria should be the same for all readers)
 
-2. type the hacker id of in the yellow box on the "app_reading" sheet of hackathonAppReading. read the app - links for hyperlinks are next to the field if the field is a URL (this is why only one link per question, with typeform's link field, is best).
+2. type the hacker id of in the yellow box on the **app_reading** sheet of hackathonAppReading. read the app - links for hyperlinks are next to the field if the field is a URL (this is why only one link per question, with typeform's link field, is best).
 
-3. in hackathonAppScoring, in the "scoring" sheet, type the hacker ID, score for each criteria, and any notes on a new row in the yellow box. try to use notes sparingly. which scoring system is used is not important, although i recommend either a 1-5 or 1-7 scale, with an attempt to squeeze towards the middle.
+3. in hackathonAppScoring, in the **scoring** sheet, type the hacker ID, score for each criteria, and any notes on a new row in the yellow box. try to use notes sparingly. which scoring system is used is not important, although i recommend either a 1-5 or 1-7 scale, with an attempt to squeeze towards the middle.
 
 4. when done reading all apps, save hackathonAppScoring and send it back to whoever is running processing
 
 #### processing and acceptance
 
-when processing, you'll have received a bunch of scoring sheets from your readers. the first thing you need to do is aggregate this data. just copy the entire contents of the "output" tab (any numbers that come up in the teal boxes) of each hackathonAppScoring sheet, and paste into the "normed_score_inputs" tab of hackathonAppProcessing. **when pasting, right click, choose "paste special", and choose "paste as values"**.
+when processing, you'll have received a bunch of scoring sheets from your readers. the first thing you need to do is aggregate this data. just copy the entire contents of the **output** tab (any numbers that come up in the teal boxes) of each hackathonAppScoring sheet, and paste into the **normed_score_inputs** tab of hackathonAppProcessing. **when pasting, right click, choose "paste special", and choose "paste as values"**.
 
 after doing this for all the sheets, you should have all of the scores with weird decimal numbers in the yellow columns (the numbers are z-scores - we normalize each score into a z-score based on the distribution of the reader).
 
 at this point, you have three choices:
 
-1. accept the *n* highest scores. to do this, use the acceptance_panel sheet of hackathonAppProcessing, and configure the yellow box for the number of people you want to accept to your hackathon. the stats will tell you how many you actually accepted (should match the yellow box, unless you don't have enough applicants... or you're trying to accept more than 3000 hackers), and give gender and racial breakdowns of your accepted pool. their info is below the line; you're good to go!
+1. accept the *n* highest scores. to do this, use the **acceptance_panel** sheet of hackathonAppProcessing, and configure the yellow box for the number of people you want to accept to your hackathon. the stats will tell you how many you actually accepted (should match the yellow box, unless you don't have enough applicants... or you're trying to accept more than 3000 hackers), and give gender and racial breakdowns of your accepted pool. their info is below the line; you're good to go!
 
-2. accept the *n* highest scores subject to some desired gender breakdown. to do this, use the gender_diversity_acceptance sheet of hackathonAppProcessing, and configure the yellow boxes for the number of people you want to accept to the hackathon, and the gender breakdown you're looking to accept - this breakdown must add up to 1. the stats will tell you how many you actually accepted, and give gender and racial breakdowns of your accepted pool. their info is below the line; you're good to go!
+2. accept the *n* highest scores subject to some desired gender breakdown. to do this, use the **gender_diversity_acceptance** sheet of hackathonAppProcessing, and configure the yellow boxes for the number of people you want to accept to the hackathon, and the gender breakdown you're looking to accept - this breakdown must add up to 1. the stats will tell you how many you actually accepted, and give gender and racial breakdowns of your accepted pool. their info is below the line; you're good to go!
 
-3. accept the *n* highest scores subject to some desired racial breakdown. to do this, use the racial_diversity_acceptance sheet of hackathonAppProcessing, and configure the yellow boxes for the number of people you want to accept to the hackathon, and the racial breakdown you're looking to accept - this breakdown must add up to 1. the stats will tell you how many you actually accepted, and give gender and racial breakdowns of your accepted pool. their info is below the line; you're good to go!
+3. accept the *n* highest scores subject to some desired racial breakdown. to do this, use the **racial_diversity_acceptance** sheet of hackathonAppProcessing, and configure the yellow boxes for the number of people you want to accept to the hackathon, and the racial breakdown you're looking to accept - this breakdown must add up to 1. the stats will tell you how many you actually accepted, and give gender and racial breakdowns of your accepted pool. their info is below the line; you're good to go!
 
 typically it's a good idea to use 1. first, to gauge what the breakdown looks like with no restrictions, and adjust from there to try and build a diverse/worthwhile community and specify that breakdown.
 
