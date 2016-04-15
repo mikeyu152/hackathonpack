@@ -2,9 +2,9 @@
 organizing a hackathon: a hackpack
 
 ## preface
-a hackpack is a package of starter code that serves as, [per treehacks](https://medium.com/@hackwithtrees/treehacks-the-redux-7f4e50feb8ba#.vkw9kbdkj), a tool for hackers to "help you skip the drudgery and get straight to your dreams." this is an attempt to do similar for organizers. when it comes to hackathons, too many events suffer because a lot of time is spent on the menial work - the mechanics of admissions, money, or logistics, for instance - and organizers don't have time to plan the "non-essentials," like extra experiences or great ceremonies, to take their events to the next level.
+a hackpack is a package of starter code that serves as, **[per treehacks](https://medium.com/@hackwithtrees/treehacks-the-redux-7f4e50feb8ba#.vkw9kbdkj)**, a tool for hackers to "help you skip the drudgery and get straight to your dreams." this is an attempt to do similar for organizers. when it comes to hackathons, too many events suffer because a lot of time is spent on the menial work - the mechanics of admissions, money, or logistics, for instance - and organizers don't have time to plan the "non-essentials," like extra experiences or great ceremonies, to take their events to the next level.
 
-this is a guide, and more importantly, "software" stack + suggested softwares, to help you do the easy stuff more efficiently.
+this is a guide, and more importantly, "software" stack + suggested softwares, to help you do the easy stuff more efficiently. it is by no means meant to be a replacement for the **[mlh organizers guide](http://guide.mlh.io/)** - you should think of that as a more linear narrative to help plan a hackathon, while this is a set of tools that you pick and choose from to deploy as you need them.
 
 (almost) all of this has been "battle-tested" by organizing teams, and we'd love to see organizing teams who have processes for their hackathons contribute as well. hundreds of hackathons are run across the country - it seems that every hackathon could gain a lot if we all shared our methods, best practices, and tools.
 
@@ -32,6 +32,11 @@ sometimes the README will link to software that has been open-sourced by a hacka
   1. Hackathon Application Template - a typeform with some examples and pointers for setting up a Typeform application
 
 ### finances
+
+1. flightCapTable.xlsx - a tool to integrate ticket price and flight caps based on region, and verify acceptance, to compute reimbursement for each hacker
+
+2. README - explains flight cap table, and gives some tips on using airtable for budgeting
+
 ### internal
 ### judging
 ### registration
